@@ -4,7 +4,7 @@ require './my_model'
 
 get "/" do
   y = MyApp.new
-  "#{y}" 
+  y.save
 end
 
 
